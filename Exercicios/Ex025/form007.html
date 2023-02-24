@@ -8,31 +8,36 @@
 </head>
 <body>
     <h1>Exemplo de Formulário</h1>
-    <form action="cadastro.php" method="post" autocomplete="on">
-        <p>
-            <label for="iest">Estado:</label>
-            <select name="estado" id="iest">
-            <optgroup label="Região Sudeste">
+    <form action="cadastro.php">
+        <label for="iest">Qual o seu estado?</label>
+        <select name="estado" id="iest">
+            <optgroup label="Sudeste">
                 <option value="SP">São Paulo</option>
                 <option value="RJ">Rio de Janeiro</option>
                 <option value="MG">Minas Gerais</option>
             </optgroup>
-            <optgroup label="Região Nordeste">
-                <option value="MA">Maranhão</option>
-                <option value="PE">Pernambuco</option>
+            <optgroup label="Nordeste">
                 <option value="BA">Bahia</option>
+                <option value="PI">Piauí</option>
+                <option value="MA">Maranhão</option>
             </optgroup>
-            </select>
+        </select>
+        <p>
+            <label for="iprof">Qual sua profissão?</label>
+            <input type="text" name="prof" id="iprof" list="listaprof">
+            <datalist id="listaprof">
+                <option value="ADM">Administrador</option>
+                <option value="PROF">Professor</option>
+            </datalist>
         </p>
         <p>
-            <label for="iprod">Profissão</label>
-            <input type="text" name="prof" id="iprof">
-            
+            <textarea name="msg" id="imsg" cols="40" rows="5"></textarea>
         </p>
         <p>
             <input type="submit" value="Enviar">
-            <input type="reset" value="limpar">
+            <input type="reset" value="Redefinir">
         </p>
+
     </form>
 </body>
 </html>
