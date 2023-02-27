@@ -1,0 +1,11 @@
+*{
+    margin: px;
+    padding: 10px;
+}
+nav{
+    display: none;
+
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
