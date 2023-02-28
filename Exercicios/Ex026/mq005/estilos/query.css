@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+ /*TODAS AS MIDIAS*/
+
+    /*Typical Device Breakpoints
+Peuqenas telas: até 600px
+celular: de 600 até 768
+tablet: 768 até 992
+desktop: 992 até 1200
+Grandes telas: +1200px
+*/
+
+@media screen and (min-width:768px){
+    .material-symbols-outlined{
+        display: none;
+        
+    }
+    #menu{
+        display: block;
+        
+    }
+    li{
+        display: inline-block;
+        
+    }
+}

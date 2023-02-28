@@ -43,7 +43,7 @@ Grandes telas: +1200px
     
 }
 /*-----------DIVISÃO DE MIDIAS QUERY-----------*/ 
-@media screen and (min-width: 992px) and (max-width: 1200px) { /*DESKTOP*/
+@media screen and (min-width: 992px) and (max-width: 1500px) { /*DESKTOP*/
     body{
         background-image: url(../imgs/back-pc.jpg);
     }
@@ -62,7 +62,7 @@ Grandes telas: +1200px
 
 }
 /*-----------DIVISÃO DE MIDIAS QUERY-----------*/ 
-@media screen and (min-width:1200px){ /*GRANDES TELAS*/
+@media screen and (min-width:1500px){ /*GRANDES TELAS*/
     body{
         background-image: url(../imgs/back-tv.jpg);
     }
